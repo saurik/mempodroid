@@ -22,9 +22,9 @@ Further, run-as bails early on if it is not either a) already running as root (w
 Usage Instructions
 ------------------
 
-Once compiled (or [downloaded pre-compiled] [1]), you should copy it to your device (using adb), mark it executable, and then run it, passing first the offset of exit(), secondly the offset of the call to setresuid() (which must take its arguments from r5, I could easily generalize this if required), and a program to spawn as root.
+Once compiled (or [downloaded pre-compiled] [4]), you should copy it to your device (using adb), mark it executable, and then run it, passing first the offset of exit(), secondly the offset of the call to setresuid() (which must take its arguments from r5, I could easily generalize this if required), and a program to spawn as root.
 
-  [1]: http://cache.saurik.com/android/armeabi/mempodroid
+  [4]: http://cache.saurik.com/android/armeabi/mempodroid
 
 On the Galaxy Nexus, exit() is at 0xd7f4 and the call to sysresuid() is at 0xad4b (these happen to be printed by mempodroid as part of its usage instructions, if you forget). So, if you thereby wanted to then use it to remount /system with read/write access, you could use it as follows (or, just use "sh" to get an immediate shell).
 
