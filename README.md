@@ -10,6 +10,8 @@ Of course, the Galaxy Nexus can be rooted quite easily (with a big thank you to 
 
 That said, _I_ found it interesting, and I seriously burst out laughing when I read the article by Jason A. Donenfeld, as I found this particular exploit to simply be "that awesome". There is also always the possibility that there might actually be a device out there where this ends up being useful, so I figured I'd throw it up on GitHub.
 
+*Update*: Apparently, the ASUS Transformer Prime runs ICS (4.0.3 as of yesterday), which this project manages to root. While Android itself is open, many of the devices that use it are not, and the Transformer Prime has a locked bootloader, making exploits such as this required to install custom software. :( Big thanks goes out to @alpharevx!
+
 Some Details
 ------------
 
@@ -31,6 +33,9 @@ On the Galaxy Nexus, exit() is at 0xd7f4 and the call to sysresuid() is at 0xad4
     $ ./mempodroid 0xd7f4 0xad4b mount -o remount,rw '' /system
     $ ./mempodroid 0xd7f4 0xad4b sh
     # 
+
+* Galaxy Nexus 4.0.2: 0xd7f4 0xad4b
+* Transformer Prime 4.0.3: 0xd9ec 0xaf47
 
 More Resources
 --------------
