@@ -154,6 +154,7 @@ int main(int argc, char *argv[]) {
           /*"    NOTE: to attempt autodetect, pass '-'\n"
             "          for either exit, call, or both\n");*/
             "    Galaxy Nexus 4.0.2: 0xd7f4 0xad4b\n"
+            "    Nexus S 4.0.2: 0xd7cc 0xad27\n"
             "    Transformer Prime 4.0.3: 0xd9ec 0xaf47\n"
             "\n"
             "concrete implementation by Jay Freeman (saurik)\n"
