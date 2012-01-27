@@ -5,6 +5,7 @@
 #include <sys/socket.h>
 #include <fcntl.h>
 #include <errno.h>
+#include <stdbool.h>
 
 #define argv0 "xe-jM_uH"
 
