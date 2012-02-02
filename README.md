@@ -34,6 +34,7 @@ On the Galaxy Nexus, exit() is at 0xd7f4 and the call to sysresuid() is at 0xad4
     $ ./mempodroid 0xd7f4 0xad4b sh
     # 
 
+* Acer A200 Tablet 4.0.3: 0xd9f0 0xaf47
 * Galaxy Nexus 4.0.2: 0xd7f4 0xad4b
 * Motorola RAZR 4.0.3: 0xd6c4 0xad33
 * Nexus S 4.0.3: 0xd7cc 0xad27
