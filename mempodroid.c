@@ -194,6 +194,7 @@ int main(int argc, char *argv[]) {
           /*"    NOTE: to attempt autodetect, pass '-'\n"
             "          for either exit, call, or both\n");*/
             "    Acer A200 Tablet 4.0.3: 0xd9f0 0xaf47\n"
+            "    Galaxy Nexus 4.0.1: 0xd7fe 0xad57\n"
             "    Galaxy Nexus 4.0.2: 0xd7f4 0xad4b\n"
             "    Motorola RAZR 4.0.3: 0xd6c4 0xad33\n"
             "    Nexus S 4.0.2: 0xd7cc 0xad27\n"
